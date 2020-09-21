@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.contatiner {
+  padding: 50px 150px;
+  background-color: #f2f2f2f2;
+}
+
+.movies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
