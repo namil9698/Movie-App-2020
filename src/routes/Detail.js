@@ -9,9 +9,19 @@ class Detail extends React.Component {
     }
   }
   render() {
-    const { location } = this.props;
-    if (location.state) {
-      return <span>{location.state.title}</span>;
+    const {
+      location: { state },
+    } = this.props;
+
+    console.log(state);
+    if (state) {
+      return (
+        <div className="movie__detail">
+          <img src={state.poster} alt={state.title} title={state.title} />
+          <span>{state.title}</span>
+          <p>{state.summary}</p>
+        </div>
+      );
     } else {
       return null;
     }

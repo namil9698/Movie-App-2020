@@ -1,0 +1,26 @@
+a,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav {
+  position: absolute;
+  left: 30px;
+  top: 30px;
+  border-radius: 10px;
+  text-decoration: none;
+  width: 100px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fff;
+  color: rgb(122, 124, 255);
+  font-weight: bold;
+}
+
+.nav a:hover {
+  color: blueviolet;
+}
